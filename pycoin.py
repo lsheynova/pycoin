@@ -70,12 +70,12 @@ def add_latest_block(blockchain, verified_block):
 # blockchain = blockchain()
 
 # gblock = mine_gblock(blockchain, "0x00893266390")
-# add_block(blockchain, gblock)
+# add_latest_block(blockchain, gblock)
 
 
 # for i in range(10):
 #     b = mine_block(blockchain, [], "0x00893266390")
-#     add_block(blockchain, b)
+#     add_latest_block(blockchain, b)
 
 # save_blockchain(blockchain, file_string="blockchain.json")
 
